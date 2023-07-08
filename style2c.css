@@ -1,0 +1,118 @@
+*{box-sizing: border-box;margin:0;padding: 0;
+}
+body{
+    background-image: linear-gradient(yellow,red);
+}
+.dropbtn {
+    background-image: url;
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown img{
+    width:50px;
+    height:40px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .head{background-image:  linear-gradient(to top right,rgba(0,0,0,.8) ,rgba(200,200,0,0.2) );
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;height: 70px;
+  }
+  .head-cont{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;text-align: center;color: blue;font-weight: 100;padding-left: 40px;
+   
+    display: inline;
+   
+  }
+  .head_cont h1{
+    display:inline;padding: 30%;
+    
+  }
+  .week0{
+    display:block;
+    background-image: linear-gradient(to top right,rgba(0,0,0,.6) ,rgb(200,200,0) );color:blue;
+    width: 260px;height:150px;border-radius: 18px;box-shadow: 10px 10px 15px  3px white ;
+    padding: 15px;
+    height:180px;
+    
+  }
+  .head1{
+    display:flex;
+    justify-content: space-around;
+    left:50px;top:30px;right:30px;
+    position:relative;
+    align-content: center;
+  }
+  .search{
+   font-size: larger;
+    border-radius: 10px;
+    
+    margin:4px;
+    font-weight: 500;right:60px;
+
+  }
+  .head2{
+    display: flex;
+    max-width: 17000px;
+    justify-content: space-between;
+margin-top: 200px;
+   position: relative;
+   
+   margin-right: 20px;
+   
+    overflow-x: scroll;
+    
+    bottom: 15px;
+
+  }
+  .head2 div{
+    flex: 0 0 auto;
+    padding: 15px;
+    
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    height: 180px;
+  }
+  h3{
+    display: inline;
+  }
+  span{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: underline;
+  }
