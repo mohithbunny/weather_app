@@ -86,7 +86,7 @@ image1.src=`https://openweathermap.org/img/wn/${data.list[0].weather[0].icon}@2x
   d=new Date(data.list[32].dt_txt);
   day5.innerHTML=getDay1(d.getDay());
  image5.src=`https://openweathermap.org/img/wn/${data.list[32].weather[0].icon}@2x.png`;
- demo1.innerHTML=data.city.id;
+ 
 
 
 
